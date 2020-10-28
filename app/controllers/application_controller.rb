@@ -6,4 +6,16 @@ class ApplicationController < Sinatra::Base
 
   # code actions here!
 
+  get '/' do 
+    erb :index 
+  end 
+
+  post '/new' do 
+    erb :create_recipe
+  end 
+
+  
+
+  
+
 end
